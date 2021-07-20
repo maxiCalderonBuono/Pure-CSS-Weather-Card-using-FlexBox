@@ -1,0 +1,106 @@
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 2px;
+  height: 655px;
+  background-color: #0e0e0e;
+}
+
+.background {
+  background-color: #a64253;
+  display: flex;
+  width: 85%;
+  height: 100%;
+  margin: 1px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainconteiner {
+ 
+  width: 82%;
+  height: 70%;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction:column ;
+  box-shadow: 0px 10px 80px 0px black;
+}
+
+
+.weatherpicture {
+    height: 60%;
+    background-color: #FAFAFA;
+    justify-content: center;
+    display:flex;
+    align-items:center;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    font-size: 160px;
+    
+    
+}
+
+
+.bottom {
+    height: 40%;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.date {
+    height: 100%;
+    width: 30%;;
+    background-color: #70C1B3;
+    border-bottom-right-radius: 2rem;
+    font-family: "Poiret one";
+    color:#FAFAFA;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 800;
+    
+}
+
+.weathertext {
+    height: 100%;
+    width: 70%;;
+    background-color: #080705;
+    border-bottom-left-radius: 2rem;
+    font-family: "Poiret one";
+    color:#FAFAFA;
+    display: flex;
+    flex-direction: row;
+}
+
+.temperature {
+    font-size: 100px;
+    display:flex;
+    align-items: center;
+    margin: 0px 50px;
+
+} 
+
+.text {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+}
+
+.condition {
+  font-size: 60px;
+  
+}
+
+.city {
+  font-size: 26px;
+}
+
+
