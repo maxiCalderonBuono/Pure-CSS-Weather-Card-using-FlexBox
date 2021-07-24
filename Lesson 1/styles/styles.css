@@ -1,0 +1,133 @@
+@import url(//db.onlinewebfonts.com/c/06d0fb8eb5251a7dba7660fab5d2f0f9?family=Formula1+Display+Bold);
+
+* {
+  padding: 0;
+  font-family: "Formula1 Display Bold";
+  color:#ffffff
+}
+
+body {
+  background-color: #990F0E;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul {
+    margin:0 0rem;
+}
+
+li {
+    list-style: none;
+    margin:0;
+}
+h1 {
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+
+.layout {
+  display:flex;
+  justify-content: center;
+}
+
+.card-container {
+  width: 200px;
+  height: 300px;
+  background-color: #e41c1c;
+  border-radius: 1.25rem;
+  border: solid #ffffff 0.5rem;
+}
+
+.card-container-car {
+  width: 500px;
+  height: 300px;
+  background-color: #e41c1c;
+  border-radius: 1.25rem;
+  border: solid #ffffff 0.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image {
+  width: 200px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-image-car {
+  width: 500px;
+  height: 180px;
+  object-fit: cover;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+.flag {
+    width: 20px;
+    height: 20px;
+    margin-left:0.5rem;
+    margin-right: 0.2rem;
+}
+
+.card-imagen {
+  width: 215px;
+  height: 315px;
+  object-fit: cover;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.f1logo {
+  width: 75px;
+  height: 15px;
+}
+
+.easports {
+  width: 20px;
+  height: 20 px;
+  order: 1;
+}
+
+.codemasters {
+  width: 30px;
+  height: 15px;
+}
+
+.footer {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+}
+
+.footer-car {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+#scuderia {
+    font-size: 0.75rem;
+    color:#FFDEDE;
+    line-height: 1.2rem;
+}
+
+#name {
+    font-size: 1.1rem;
+    line-height: 1rem;
+   
+}
